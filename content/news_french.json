@@ -1,0 +1,98 @@
+{
+  "siteName": "LE QUOTIDIEN",
+  "currentDate": "Jeudi, 11 juin 2026",
+  "navItems": ["Accueil", "Monde", "Politique", "Économie", "Science", "Sport", "Culture"],
+  "breakingTitle": "Flash",
+  "latestNewsTitle": "Dernières nouvelles",
+  "readMoreText": "Lire la suite",
+  "breaking": [
+    "Les marchés mondiaux rebondissent après les signaux des banques centrales sur les taux",
+    "L'agence spatiale confirme une mission habitée vers le pôle sud lunaire en 2028",
+    "Vague de chaleur historique en Europe du Sud : des records battus en juin",
+    "Un géant technologique présente un modèle d'IA de nouvelle génération"
+  ],
+  "heroArticle": {
+    "title": "Mission lunaire habitée confirmée pour 2028 : une étape historique",
+    "excerpt": "Le consortium spatial international a annoncé qu'un équipage de quatre astronautes s'élancera vers le pôle sud de la Lune en 2028. L'objectif est d'établir une base de recherche permanente et de localiser des dépôts de glace d'eau susceptibles de soutenir de futurs séjours prolongés sur la surface lunaire.",
+    "meta": "Science • il y a 2 heures"
+  },
+  "sideArticles": [
+    {
+      "title": "Les marchés mondiaux en hausse après les signaux des banques centrales",
+      "meta": "Économie • il y a 4 heures",
+      "excerpt": "Les grandes places boursières d'Asie, d'Europe et des Amériques ont bondi après que les responsables des banques centrales ont évoqué une pause prolongée dans le resserrement monétaire, restaurant la confiance dans les secteurs technologique et financier."
+    },
+    {
+      "title": "Canicule historique en Europe du Sud : records battus en juin",
+      "meta": "Environnement • il y a 5 heures",
+      "excerpt": "Les météorologues ont enregistré les températures de juin les plus élevées depuis des décennies en Espagne, en Italie et en Grèce. Des alertes sanitaires ont été émises et des mesures d'urgence déployées dans les grandes villes."
+    },
+    {
+      "title": "Sommet d'urgence sur la biodiversité à Genève",
+      "meta": "Monde • il y a 8 heures",
+      "excerpt": "Des délégués de 190 pays négocient des objectifs contraignants pour la protection des habitats naturels, après la publication de données alarmantes sur l'effondrement des écosystèmes."
+    },
+    {
+      "title": "L'UE finalise une réglementation stricte pour les grandes plateformes",
+      "meta": "Technologie • il y a 10 heures",
+      "excerpt": "La Commission européenne a confirmé des règles imposant aux grandes plateformes de partager leurs données avec les chercheurs et d'améliorer la transparence algorithmique avant la fin de l'année."
+    }
+  ],
+  "opinions": [
+    {
+      "author": "Sophie Durand",
+      "title": "Les villes, premières à agir pour le climat",
+      "excerpt": "Les gouvernements nationaux ont répétément manqué leurs objectifs climatiques. L'innovation se passe désormais à l'échelle municipale, où les maires disposent de la volonté politique et de la proximité nécessaires pour agir."
+    },
+    {
+      "author": "Marc Lefebvre",
+      "title": "L'IA ne remplace pas la créativité, elle la révèle",
+      "excerpt": "Malgré l'engouement médiatique, les outils génératifs amplifient la créativité humaine plutôt qu'ils ne la supplantent. Les métiers les plus menacés sont ceux qui avaient déjà standardisé leur approche créative."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Le défi de notre époque n'est pas un manque de solutions, c'est un manque de volonté de les déployer à la vitesse et à l'échelle que la science exige.",
+      "author": "Rapport annuel du GIEC, octobre 2025"
+    }
+  ],
+  "gridArticles": [
+    {
+      "category": "Politique",
+      "title": "Négociations de coalition dans l'impasse sur le budget",
+      "excerpt": "Les discussions entrent dans leur troisième semaine sans accord sur l'équilibre entre investissements d'infrastructure et dépenses sociales."
+    },
+    {
+      "category": "Culture",
+      "title": "Une rétrospective célèbre un siècle d'architecture moderniste",
+      "excerpt": "La nouvelle exposition retrace l'influence du Bauhaus jusqu'au design urbain contemporain sur trois continents."
+    },
+    {
+      "category": "Science",
+      "title": "Une étude relie les microplastiques aux risques cardiovasculaires",
+      "excerpt": "Des chercheurs ont détecté des concentrations élevées dans les tissus artériels, renforçant le lien entre pollution plastique et santé humaine."
+    },
+    {
+      "category": "Sport",
+      "title": "L'équipe nationale dévoile sa liste pour le championnat du monde",
+      "excerpt": "La sélection mêle joueurs expérimentés et nouveaux venus issus des meilleures performances de la saison en club."
+    }
+  ],
+  "footer": {
+    "sections": [
+      {
+        "title": "Actualités",
+        "links": ["Monde", "France", "Politique", "Santé"]
+      },
+      {
+        "title": "Économie",
+        "links": ["Marchés", "Entreprises", "Conjoncture", "Tech"]
+      },
+      {
+        "title": "Culture",
+        "links": ["Cinéma", "Musique", "Livres", "Architecture"]
+      }
+    ],
+    "copyright": "© 2026 Le Quotidien Médias Numériques. Tous droits réservés."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "nav": { "logo": "AR", "links": ["Work", "About", "Services", "Contact"] },
+  "hero": {
+    "nameLines": ["ALEX", "REEVES"],
+    "discipline": "Visual Designer",
+    "tagline": "Crafting identities\nthat endure.",
+    "cta": "View Work",
+    "availability": "Open to new projects"
+  },
+  "work": {
+    "sectionLabel": "Selected Work",
+    "projects": [
+      { "number": "01", "title": "Meridian", "category": "Brand Identity", "year": "2025", "bg": "#1a1a2e" },
+      { "number": "02", "title": "Forma Studio", "category": "Web Design", "year": "2025", "bg": "#1e2d1e" },
+      { "number": "03", "title": "Atlas Type", "category": "Typography", "year": "2024", "bg": "#2d1e1e" },
+      { "number": "04", "title": "Veil Magazine", "category": "Editorial", "year": "2024", "bg": "#1e1e2d" }
+    ],
+    "viewProject": "View Project →"
+  },
+  "about": {
+    "sectionLabel": "About",
+    "heading": "Design with\nintention.",
+    "bio": "I'm a visual designer based in London, working at the intersection of brand identity, typography, and digital experience. With over eight years of practice, I partner with forward-thinking studios and founders to build brands that hold their shape over time.",
+    "skills": ["Brand Identity", "Typography", "Art Direction", "Digital Design"],
+    "tagline": "Available worldwide.",
+    "stats": [
+      { "value": 8,  "suffix": "+", "label": "Years" },
+      { "value": 60, "suffix": "+", "label": "Projects" },
+      { "value": 34, "suffix": "",  "label": "Clients" }
+    ]
+  },
+  "services": {
+    "sectionLabel": "Services",
+    "items": [
+      { "number": "01", "name": "Brand Identity",  "detail": "Strategy, naming, visual identity, brand guidelines" },
+      { "number": "02", "name": "Typography",       "detail": "Type consultation, custom lettering, editorial systems" },
+      { "number": "03", "name": "Web Design",       "detail": "Interface design, prototyping, design systems" },
+      { "number": "04", "name": "Art Direction",    "detail": "Campaigns, editorial, photography direction" }
+    ]
+  },
+  "footer": {
+    "email": "hello@alexreeves.com",
+    "socials": ["Instagram", "LinkedIn", "Are.na"],
+    "copyright": "© 2026 Alex Reeves"
+  }
+}

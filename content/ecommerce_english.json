@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "logo": "FORM",
+    "links": ["Shop", "Collections", "About", "Cart"],
+    "cartCount": "3"
+  },
+  "hero": {
+    "eyebrow": "New Collection — SS26",
+    "headline": "Objects\nMade to\nLast.",
+    "subline": "Functional design for the considered home.",
+    "cta": "Shop Now",
+    "ctaSecondary": "Explore the collection",
+    "imageBg": "#c8bfb0"
+  },
+  "products": {
+    "sectionLabel": "Featured Products",
+    "items": [
+      { "id": "p1", "name": "Linen Table Runner",   "category": "Textiles",  "price": "£48",  "tag": "New",       "bg": "#d6cfc4" },
+      { "id": "p2", "name": "Ceramic Carafe",        "category": "Kitchen",   "price": "£86",  "tag": "",          "bg": "#b8c4bb" },
+      { "id": "p3", "name": "Oak Side Table",         "category": "Furniture", "price": "£340", "tag": "Bestseller","bg": "#c4bdb0" },
+      { "id": "p4", "name": "Wool Throw",             "category": "Textiles",  "price": "£120", "tag": "",          "bg": "#b0b8c4" },
+      { "id": "p5", "name": "Porcelain Bowl Set",     "category": "Kitchen",   "price": "£64",  "tag": "New",       "bg": "#c4c0b8" },
+      { "id": "p6", "name": "Woven Storage Basket",   "category": "Homewares", "price": "£55",  "tag": "",          "bg": "#bdc4bc" },
+      { "id": "p7", "name": "Beeswax Taper Candles",  "category": "Lighting",  "price": "£18",  "tag": "",          "bg": "#c8c0b0" },
+      { "id": "p8", "name": "Leather Coaster Set",    "category": "Homewares", "price": "£32",  "tag": "Sale",      "bg": "#b8c0c8" }
+    ],
+    "addToCart": "Add to Cart",
+    "quickAdd": "Quick Add"
+  },
+  "feature": {
+    "eyebrow": "The Philosophy",
+    "heading": "Less,\nbut better.",
+    "body": "We believe in objects that earn their place — designed with intention, made to be used, built to be kept. Every piece in our collection is chosen for how it lives alongside daily life.",
+    "cta": "Our Story",
+    "imageBg": "#a8b8a8",
+    "stats": [
+      { "value": 12, "suffix": "+", "label": "Years" },
+      { "value": 200, "suffix": "+", "label": "Products" },
+      { "value": 48, "suffix": "k", "label": "Customers" }
+    ]
+  },
+  "strip": ["Free Shipping over £80", "Handmade in Europe", "30-Day Returns", "Sustainably Sourced", "Lifetime Guarantee", "Carbon Neutral"],
+  "categories": {
+    "sectionLabel": "Shop by Room",
+    "items": [
+      { "name": "Kitchen",   "count": "24 pieces", "bg": "#c8bfb0" },
+      { "name": "Living",    "count": "38 pieces", "bg": "#b0b8c4" },
+      { "name": "Bedroom",   "count": "19 pieces", "bg": "#c4bdb0" }
+    ]
+  },
+  "newsletter": {
+    "heading": "Considered Objects,\nDelivered Monthly.",
+    "subline": "New arrivals, maker stories, and ideas for the thoughtful home.",
+    "placeholder": "Your email address",
+    "cta": "Subscribe"
+  },
+  "footer": {
+    "logo": "FORM",
+    "tagline": "Objects made to last.",
+    "columns": [
+      { "heading": "Shop",    "links": ["All Products", "New Arrivals", "Bestsellers", "Sale"] },
+      { "heading": "Company", "links": ["Our Story", "Makers", "Sustainability", "Press"] },
+      { "heading": "Help",    "links": ["Shipping & Returns", "Care Guides", "Contact", "FAQ"] }
+    ],
+    "socials": ["Instagram", "Pinterest", "Substack"],
+    "copyright": "© 2026 Form Studio Ltd."
+  }
+}

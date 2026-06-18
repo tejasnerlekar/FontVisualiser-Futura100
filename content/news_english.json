@@ -1,0 +1,98 @@
+{
+  "siteName": "THE GAZETTE",
+  "currentDate": "Thursday, 11 June 2026",
+  "navItems": ["Home", "World", "Politics", "Business", "Science", "Sport", "Culture"],
+  "breakingTitle": "Breaking",
+  "latestNewsTitle": "Latest News",
+  "readMoreText": "Read more",
+  "breaking": [
+    "Global markets rally as central banks signal extended pause on rate hikes",
+    "Space agency confirms crewed mission to lunar south pole scheduled for 2028",
+    "Record June temperatures sweep southern Europe amid climate emergency warnings",
+    "Tech giant unveils next-generation AI model with advanced reasoning capabilities"
+  ],
+  "heroArticle": {
+    "title": "Space Agency Confirms Crewed Lunar Mission for 2028",
+    "excerpt": "In a landmark announcement, the international space consortium confirmed that a crew of four astronauts will embark on a historic journey to the lunar south pole in 2028. The mission aims to establish a permanent research outpost and search for water ice deposits that could support future long-duration stays on the Moon.",
+    "meta": "Science • 2 hours ago"
+  },
+  "sideArticles": [
+    {
+      "title": "Global Markets Rally as Rate Pause Signals Stabilise Investor Sentiment",
+      "meta": "Business • 4 hours ago",
+      "excerpt": "Major indices surged across Asia, Europe and the Americas as central bank officials hinted at a prolonged pause in monetary tightening, boosting confidence in technology and financial sectors. Analysts say the shift marks a turning point for growth stocks."
+    },
+    {
+      "title": "Record Heat Grips Southern Europe Amid Climate Emergency",
+      "meta": "Environment • 5 hours ago",
+      "excerpt": "Meteorologists recorded the highest June temperatures in decades across Spain, Italy and Greece, prompting public health warnings and emergency cooling measures in major cities. Wildfires have broken out in three regions."
+    },
+    {
+      "title": "Nations Convene for Emergency Biodiversity Summit in Geneva",
+      "meta": "World • 8 hours ago",
+      "excerpt": "Delegates from 190 countries are negotiating binding targets for habitat protection and species recovery following alarming new data on global ecosystem collapse rates."
+    },
+    {
+      "title": "EU Finalises Sweeping New Rules for Digital Platforms",
+      "meta": "Technology • 10 hours ago",
+      "excerpt": "The European Commission has confirmed regulations requiring large platforms to share data with researchers and improve algorithmic transparency by the end of this year."
+    }
+  ],
+  "opinions": [
+    {
+      "author": "Elena Marchetti",
+      "title": "Why cities must lead the green transition",
+      "excerpt": "National governments have repeatedly failed to meet climate commitments. The real innovation is happening at municipal level, where mayors have the will and the proximity to act."
+    },
+    {
+      "author": "James Okafor",
+      "title": "The myth of AI replacing creative work",
+      "excerpt": "Despite the hype, generative tools are augmenting human creativity rather than supplanting it. The professions most at risk are those that commoditised creativity in the first place."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The challenge of our time is not a lack of solutions — it is a lack of will to deploy them at the speed and scale the science demands.",
+      "author": "UN Climate Panel, Annual Progress Report 2025"
+    }
+  ],
+  "gridArticles": [
+    {
+      "category": "Politics",
+      "title": "Coalition Talks Stall Over Budget and Social Welfare Priorities",
+      "excerpt": "Negotiations have entered their third week with no agreement on the balance between infrastructure spending and welfare allocation."
+    },
+    {
+      "category": "Arts",
+      "title": "Retrospective Celebrates a Century of Modernist Architecture",
+      "excerpt": "A major new exhibition traces Bauhaus influence from its founding to contemporary urban design across three continents."
+    },
+    {
+      "category": "Science",
+      "title": "New Study Links Microplastics to Cardiovascular Risk",
+      "excerpt": "Researchers found elevated concentrations in arterial tissue, strengthening the case connecting plastic pollution to measurable health outcomes."
+    },
+    {
+      "category": "Sport",
+      "title": "National Side Names 26-Player World Championship Squad",
+      "excerpt": "The selection blends experienced campaigners with several uncapped players drawn from this season's standout club performances."
+    }
+  ],
+  "footer": {
+    "sections": [
+      {
+        "title": "News",
+        "links": ["World", "UK", "Politics", "Health"]
+      },
+      {
+        "title": "Business",
+        "links": ["Markets", "Companies", "Economy", "Technology"]
+      },
+      {
+        "title": "Culture",
+        "links": ["Film", "Music", "Books", "Architecture"]
+      }
+    ],
+    "copyright": "© 2026 The Gazette Digital Media. All rights reserved."
+  }
+}

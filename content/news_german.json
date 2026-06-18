@@ -1,0 +1,89 @@
+{
+  "siteName": "DAS BLATT",
+  "currentDate": "Donnerstag, 11. Juni 2026",
+  "navItems": ["Startseite", "Welt", "Politik", "Wirtschaft", "Wissenschaft", "Sport", "Kultur"],
+  "breakingTitle": "Eilmeldung",
+  "latestNewsTitle": "Neueste Nachrichten",
+  "readMoreText": "Weiterlesen",
+  "breaking": [
+    "Weltmärkte erholen sich nach Signalen der Zentralbanken für längere Zinspause",
+    "Raumfahrtbehörde bestätigt bemannte Mondmission zum Südpol für 2028",
+    "Rekord-Juniatemperaturen treffen Südeuropa inmitten von Klimanotstandswarnungen",
+    "Technologieriese stellt KI-Modell der nächsten Generation mit erweiterter Reasoning-Fähigkeit vor"
+  ],
+  "heroArticle": {
+    "title": "Raumfahrtbehörde bestätigt bemannte Mondmission für 2028",
+    "excerpt": "In einer wegweisenden Ankündigung bestätigte das internationale Raumfahrtkonsortium, dass eine vierköpfige Astronautenbesatzung 2028 eine historische Reise zum Mondsüdpol antreten wird. Ziel der Mission ist die Errichtung eines dauerhaften Forschungspostens und die Suche nach Wassereis-Vorkommen, die künftige Langzeitaufenthalte auf dem Mond ermöglichen könnten.",
+    "meta": "Wissenschaft • Vor 2 Stunden"
+  },
+  "sideArticles": [
+    {
+      "title": "Weltmärkte steigen nach Stabilisierung der geldpolitischen Signale",
+      "meta": "Wirtschaft • Vor 4 Stunden",
+      "excerpt": "Führende Indizes legten in Asien, Europa und Amerika zu, nachdem Zentralbankvertreter eine längere Pause bei der monetären Straffung andeuteten. Analysten sehen den Wandel als Wendepunkt für Wachstumswerte."
+    },
+    {
+      "title": "Rekordhitze trifft Südeuropa inmitten des Klimanotstands",
+      "meta": "Umwelt • Vor 5 Stunden",
+      "excerpt": "Meteorologen verzeichneten die höchsten Juniatemperaturen seit Jahrzehnten in Spanien, Italien und Griechenland. Öffentliche Gesundheitswarnungen und Notkühlmaßnahmen wurden in Großstädten ergriffen. Waldbrände brachen in drei Regionen aus."
+    },
+    {
+      "title": "Nationen treffen sich zum Biodiversitäts-Notfallgipfel in Genf",
+      "meta": "Welt • Vor 8 Stunden",
+      "excerpt": "Delegierte aus 190 Ländern verhandeln über verbindliche Ziele für den Habitatschutz und die Artenerholung nach alarmierenden neuen Daten über die globale Ökosystemkollapsrate."
+    },
+    {
+      "title": "EU verabschiedet weitreichende Regeln für digitale Plattformen",
+      "meta": "Technologie • Vor 10 Stunden",
+      "excerpt": "Die Europäische Kommission hat Vorschriften bestätigt, die große Plattformen zur Datenweitergabe an Forscher und zur Verbesserung der algorithmischen Transparenz bis Jahresende verpflichten."
+    }
+  ],
+  "opinions": [
+    {
+      "author": "Käthe Müller-Schönberg",
+      "title": "Warum Städte die Grüne Wende anführen müssen",
+      "excerpt": "Nationalregierungen haben Klimaverpflichtungen wiederholt nicht erfüllt. Die echte Innovation findet auf kommunaler Ebene statt, wo Bürgermeister den Willen und die Nähe haben, um zu handeln."
+    },
+    {
+      "author": "Friedrich Überschär",
+      "title": "Der Mythos der KI, die kreative Arbeit ersetzt",
+      "excerpt": "Trotz des Hypes verstärken generative Werkzeuge menschliche Kreativität, anstatt sie zu verdrängen. Am stärksten gefährdet sind Berufe, die Kreativität bereits zur Ware gemacht haben."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Die Herausforderung unserer Zeit ist kein Mangel an Lösungen — es ist der Mangel an Willen, sie in der Geschwindigkeit und dem Maßstab einzusetzen, den die Wissenschaft fordert.",
+      "author": "UN-Klimapanel, Jahresfortschrittsbericht 2025"
+    }
+  ],
+  "gridArticles": [
+    {
+      "category": "Politik",
+      "title": "Koalitionsverhandlungen stocken wegen Haushalts- und Sozialausgaben",
+      "excerpt": "Die Verhandlungen befinden sich in ihrer dritten Woche ohne Einigung über das Gleichgewicht zwischen Infrastrukturausgaben und Wohlfahrtszuweisungen."
+    },
+    {
+      "category": "Kultur",
+      "title": "Retrospektive feiert ein Jahrhundert moderner Architektur",
+      "excerpt": "Eine bedeutende Ausstellung zeichnet den Bauhaus-Einfluss von seiner Gründung bis zum zeitgenössischen Städtebau auf drei Kontinenten nach."
+    },
+    {
+      "category": "Wissenschaft",
+      "title": "Neue Studie verknüpft Mikroplastik mit kardiovaskulärem Risiko",
+      "excerpt": "Forscher fanden erhöhte Konzentrationen in arteriellem Gewebe und stärkten damit den Zusammenhang zwischen Plastikverschmutzung und messbaren Gesundheitsfolgen."
+    },
+    {
+      "category": "Sport",
+      "title": "Nationalmannschaft benennt 26-köpfigen Weltmeisterschaftskader",
+      "excerpt": "Die Auswahl vereint erfahrene Spieler mit mehreren Debütanten, die aus den herausragenden Leistungen dieser Vereinssaison hervorgegangen sind."
+    }
+  ],
+  "footer": {
+    "sections": [
+      { "title": "Nachrichten", "links": ["Welt", "Deutschland", "Politik", "Gesundheit"] },
+      { "title": "Wirtschaft",  "links": ["Märkte", "Unternehmen", "Konjunktur", "Technologie"] },
+      { "title": "Kultur",      "links": ["Film", "Musik", "Bücher", "Architektur"] }
+    ],
+    "copyright": "© 2026 Das Blatt Digital GmbH. Alle Rechte vorbehalten."
+  }
+}

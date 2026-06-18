@@ -1,0 +1,46 @@
+{
+  "nav": { "logo": "KS", "links": ["Arbeiten", "Über mich", "Leistungen", "Kontakt"] },
+  "hero": {
+    "nameLines": ["KÄTHE", "SCHÖNBERG"],
+    "discipline": "Visuelle Gestalterin",
+    "tagline": "Marken, die Bestand\nhaben.",
+    "cta": "Arbeiten ansehen",
+    "availability": "Offen für neue Projekte"
+  },
+  "work": {
+    "sectionLabel": "Ausgewählte Arbeiten",
+    "projects": [
+      { "number": "01", "title": "Überform",   "category": "Markenidentität",  "year": "2025", "bg": "#1a1a2e" },
+      { "number": "02", "title": "Größe",      "category": "Webgestaltung",    "year": "2025", "bg": "#1e2d1e" },
+      { "number": "03", "title": "Fläche",     "category": "Typografie",       "year": "2024", "bg": "#2d1e1e" },
+      { "number": "04", "title": "Gleichmaß",  "category": "Editorial",        "year": "2024", "bg": "#1e1e2d" }
+    ],
+    "viewProject": "Projekt ansehen →"
+  },
+  "about": {
+    "sectionLabel": "Über mich",
+    "heading": "Gestaltung mit\nHaltung.",
+    "bio": "Ich bin visuelle Gestalterin mit Sitz in Berlin und arbeite an der Schnittstelle von Markenidentität, Typografie und digitaler Erfahrung. Mit über acht Jahren Praxis arbeite ich mit zukunftsorientierten Studios und Gründern zusammen, um Marken aufzubauen, die über die Zeit Bestand haben.",
+    "skills": ["Markenidentität", "Typografie", "Artdirektion", "Digitales Design"],
+    "tagline": "Weltweit verfügbar.",
+    "stats": [
+      { "value": 8,  "suffix": "+", "label": "Jahre" },
+      { "value": 62, "suffix": "+", "label": "Projekte" },
+      { "value": 38, "suffix": "",  "label": "Kunden" }
+    ]
+  },
+  "services": {
+    "sectionLabel": "Leistungen",
+    "items": [
+      { "number": "01", "name": "Markenidentität",  "detail": "Strategie, Naming, visuelle Identität, Markenrichtlinien" },
+      { "number": "02", "name": "Typografie",        "detail": "Schriftberatung, Lettering, redaktionelle Systeme" },
+      { "number": "03", "name": "Webgestaltung",     "detail": "Interface-Design, Prototyping, Designsysteme" },
+      { "number": "04", "name": "Artdirektion",      "detail": "Kampagnen, Editorial, Fotodirektion" }
+    ]
+  },
+  "footer": {
+    "email": "hallo@kaetheschoenberg.de",
+    "socials": ["Instagram", "LinkedIn", "Behance"],
+    "copyright": "© 2026 Käthe Schönberg"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "logo": "FORMA",
+    "links": ["Tienda", "Colecciones", "Nosotros", "Cesta"],
+    "cartCount": "3"
+  },
+  "hero": {
+    "eyebrow": "Nueva Colección — PV26",
+    "headline": "Objetos\nPara\nDurar.",
+    "subline": "Diseño funcional para el hogar con carácter.",
+    "cta": "Comprar ahora",
+    "ctaSecondary": "Explorar la colección",
+    "imageBg": "#c8bfb0"
+  },
+  "products": {
+    "sectionLabel": "Productos Destacados",
+    "items": [
+      { "id": "p1", "name": "Camino de Mesa en Lino",    "category": "Textiles",  "price": "€48",  "tag": "Nuevo",      "bg": "#d6cfc4" },
+      { "id": "p2", "name": "Jarra de Cerámica",          "category": "Cocina",    "price": "€86",  "tag": "",           "bg": "#b8c4bb" },
+      { "id": "p3", "name": "Mesa Auxiliar de Roble",     "category": "Muebles",   "price": "€340", "tag": "Más vendido","bg": "#c4bdb0" },
+      { "id": "p4", "name": "Manta de Lana",              "category": "Textiles",  "price": "€120", "tag": "",           "bg": "#b0b8c4" },
+      { "id": "p5", "name": "Set de Cuencos de Porcelana","category": "Cocina",    "price": "€64",  "tag": "Nuevo",      "bg": "#c4c0b8" },
+      { "id": "p6", "name": "Cesta de Almacenaje Tejida", "category": "Hogar",     "price": "€55",  "tag": "",           "bg": "#bdc4bc" },
+      { "id": "p7", "name": "Velas de Cera de Abeja",    "category": "Iluminación","price": "€18",  "tag": "",           "bg": "#c8c0b0" },
+      { "id": "p8", "name": "Set de Posavasos de Cuero",  "category": "Hogar",     "price": "€32",  "tag": "Oferta",     "bg": "#b8c0c8" }
+    ],
+    "addToCart": "Añadir a la cesta",
+    "quickAdd": "Añadir rápido"
+  },
+  "feature": {
+    "eyebrow": "La Filosofía",
+    "heading": "Menos,\npero mejor.",
+    "body": "Creemos en objetos que se ganan su lugar — diseñados con intención, hechos para usarse, construidos para perdurar. Cada pieza de nuestra colección se elige por cómo convive con la vida cotidiana.",
+    "cta": "Nuestra historia",
+    "imageBg": "#a8b8a8",
+    "stats": [
+      { "value": 12,  "suffix": "+", "label": "Años" },
+      { "value": 200, "suffix": "+", "label": "Productos" },
+      { "value": 48,  "suffix": "k", "label": "Clientes" }
+    ]
+  },
+  "strip": ["Envío gratis a partir de €80", "Hecho a mano en Europa", "30 días de devolución", "De origen sostenible", "Garantía de por vida", "Huella de carbono cero"],
+  "categories": {
+    "sectionLabel": "Comprar por Estancia",
+    "items": [
+      { "name": "Cocina",    "count": "24 piezas", "bg": "#c8bfb0" },
+      { "name": "Salón",     "count": "38 piezas", "bg": "#b0b8c4" },
+      { "name": "Dormitorio","count": "19 piezas", "bg": "#c4bdb0" }
+    ]
+  },
+  "newsletter": {
+    "heading": "Objetos con criterio,\nentregados cada mes.",
+    "subline": "Novedades, historias de artesanos e ideas para el hogar consciente.",
+    "placeholder": "Tu dirección de correo",
+    "cta": "Suscribirse"
+  },
+  "footer": {
+    "logo": "FORMA",
+    "tagline": "Objetos para durar.",
+    "columns": [
+      { "heading": "Tienda",   "links": ["Todos los productos", "Novedades", "Más vendidos", "Ofertas"] },
+      { "heading": "Empresa",  "links": ["Nuestra historia", "Artesanos", "Sostenibilidad", "Prensa"] },
+      { "heading": "Ayuda",    "links": ["Envíos y devoluciones", "Guías de cuidado", "Contacto", "FAQ"] }
+    ],
+    "socials": ["Instagram", "Pinterest", "Substack"],
+    "copyright": "© 2026 Forma Studio S.L."
+  }
+}

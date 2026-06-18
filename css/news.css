@@ -1,0 +1,722 @@
+/* ================================================================
+   NEWS LAYOUT — FUTURA 100 TYPOGRAPHIC SYSTEM
+   Scale   : Pica-based (1pc = 12pt). All type sizes in pica.
+   Weights : 300 Light · 400 Regular · 500 Medium · 700 Bold
+   ================================================================ */
+
+
+/* ── 1. Container ─────────────────────────────────────────────── */
+
+.hybrid-style {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--t-12);
+    line-height: 1.5;          /* tighter than --leading-body so blocks breathe more than lines */
+    padding: 2pc 3pc 4pc;
+}
+
+.hybrid-style * {
+    box-sizing: border-box;
+}
+
+.hybrid-style h1,
+.hybrid-style h2,
+.hybrid-style h3,
+.hybrid-style h4 {
+    margin: 0;
+    font-style: normal;
+    color: var(--text-color);
+}
+
+.hybrid-style p {
+    margin: 0;
+}
+
+
+/* ── 2. Header ────────────────────────────────────────────────── */
+
+.news-header-hybrid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2pc;
+    padding-bottom: 1pc;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1pc;
+}
+
+/* Live date */
+.logo-container .date-top {
+    font-size: var(--t-10);
+    font-weight: 300;
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: 0.45;
+    margin-bottom: 0.75pc;
+}
+
+/* Masthead */
+.logo-container .logo {
+    font-size: 5.5pc;   /* ~66pt */
+    font-weight: 700;
+    letter-spacing: var(--tracking-tight);
+    line-height: var(--leading-display);
+    text-transform: uppercase;
+}
+
+.logo-container .theme-placeholder { display: none; }
+
+/* Nav */
+.news-nav-hybrid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.75pc;
+}
+
+.news-nav-hybrid a {
+    font-size: var(--t-10);
+    font-weight: 400;
+    letter-spacing: var(--tracking-caps);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 0.6;
+    padding: 0 1.25pc 0 0;
+    line-height: 1;
+    transition: opacity 0.15s, color 0.15s, font-weight 0.1s;
+}
+
+.news-nav-hybrid a:hover {
+    color: var(--accent-color);
+    font-weight: 700;
+    opacity: 1;
+}
+
+
+/* ── 3. Breaking News ─────────────────────────────────────────── */
+
+.news-breaking-hybrid {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75pc;
+    margin-bottom: 2.5pc;
+    padding: 0.5pc 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+.news-breaking-hybrid .badge {
+    font-size: var(--t-9);
+    font-weight: 700;
+    letter-spacing: var(--tracking-loose);
+    text-transform: uppercase;
+    color: var(--accent-color);
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.ticker-wrapper {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+}
+
+.ticker-content {
+    display: inline-flex;
+    align-items: center;
+    animation: ticker 40s linear infinite;
+}
+
+.ticker-content:hover { animation-play-state: paused; }
+
+.ticker-item {
+    font-size: var(--t-11);
+    font-weight: 400;
+    letter-spacing: var(--tracking-normal);
+    padding: 0 1pc;
+}
+
+.ticker-separator {
+    font-size: var(--t-12);
+    color: var(--accent-color);
+    opacity: 0.4;
+    line-height: 1;
+}
+
+@keyframes ticker {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+
+/* ── 4. Main Grid ─────────────────────────────────────────────── */
+
+.news-main-grid-hybrid {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 3pc;
+    margin-bottom: 3pc;
+    padding-bottom: 3pc;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.main-content-left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3pc;
+    border-right: 1px solid var(--border-color);
+}
+
+
+/* ── 5. Hero Article ──────────────────────────────────────────── */
+
+.hero-section-hybrid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5pc;
+}
+
+.hero-content { margin-bottom: 1pc; }
+
+/* Hero category — the one accent pill we keep */
+.hero-content .meta {
+    display: inline-block;
+    font-size: var(--t-8);
+    font-weight: 700;
+    letter-spacing: var(--tracking-loose);
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 0.25pc 0.5pc;
+    background-color: var(--accent-color);
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 0.75pc;
+}
+
+/* Hero headline — readable leading, not display-tight */
+.hero-title {
+    font-size: 3pc;   /* 36pt */
+    font-weight: 700;
+    letter-spacing: var(--tracking-tight);
+    line-height: var(--leading-headline);
+    margin-bottom: 1pc;
+}
+
+/* Standfirst — light italic */
+.hero-excerpt {
+    font-size: var(--t-14);
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.008em;
+    line-height: 1.45;
+    opacity: 0.78;
+    max-width: 52ch;
+    margin-bottom: 0;          /* image follows; hero-content margin-bottom handles gap */
+}
+
+.hero-image-placeholder {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    margin-top: 1pc;
+}
+
+
+/* ── 6. Sub-hero Grid ─────────────────────────────────────────── */
+
+.sub-hero-grid-hybrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2pc;
+    border-top: 1px solid var(--border-color);
+    padding-top: 1.5pc;
+}
+
+.sub-hero-article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section label — text only, no fill */
+.sub-hero-article .meta {
+    display: inline-block;
+    align-self: flex-start;
+    font-size: var(--t-8);
+    font-weight: 700;
+    letter-spacing: var(--tracking-loose);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--accent-color);
+    margin-bottom: 0.5pc;
+}
+
+.sub-hero-article .title {
+    font-size: 1.75pc;  /* ~21pt */
+    font-weight: 500;
+    letter-spacing: var(--tracking-display);
+    line-height: var(--leading-headline);
+    margin-bottom: 0.5pc;
+    flex: 1;
+    transition: color 0.15s;
+}
+
+.sub-hero-article:hover .title { color: var(--accent-color); }
+
+.sub-hero-article .excerpt {
+    font-size: var(--t-11);
+    font-weight: 400;
+    line-height: 1.45;
+    opacity: 0.7;
+    margin-bottom: 0.583pc;
+}
+
+.sub-hero-article .read-more { margin-top: 0.333pc; }
+
+
+/* ── 7. Latest News Sidebar ───────────────────────────────────── */
+
+.latest-news-sidebar-hybrid {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section label — clean uppercase, no background */
+.latest-news-sidebar-hybrid .sidebar-title {
+    font-size: var(--t-8);
+    font-weight: 500;
+    letter-spacing: var(--tracking-loose);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--text-color);
+    opacity: 0.35;
+    margin-bottom: 1.25pc;
+    padding-bottom: 0.5pc;
+    border-bottom: 1px solid var(--border-color);
+    display: block;
+}
+
+.latest-list-hybrid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.25pc;
+    margin-bottom: 1.25pc;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.latest-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Timestamp — plain, no border */
+.latest-item .meta-time {
+    font-size: var(--t-8);
+    font-weight: 700;
+    letter-spacing: var(--tracking-caps);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--accent-color);
+    margin-bottom: 0.4pc;
+    display: block;
+}
+
+.latest-item .title {
+    font-size: 1.25pc;  /* ~15pt */
+    font-weight: 500;
+    letter-spacing: var(--tracking-normal);
+    line-height: 1.25;
+    margin-bottom: 0.5pc;
+    transition: color 0.15s;
+}
+
+.latest-item:hover .title { color: var(--accent-color); }
+
+.latest-item .excerpt {
+    font-size: var(--t-10);
+    font-weight: 400;
+    line-height: 1.45;
+    opacity: 0.65;
+    margin-bottom: 0.4pc;
+}
+
+.latest-item .read-more { margin-top: 0.25pc; }
+
+/* Opinion items */
+.opinion-item .author-name {
+    display: block;
+    font-size: var(--t-8);
+    font-weight: 700;
+    letter-spacing: var(--tracking-caps);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--accent-color);
+    margin-bottom: 0.35pc;
+    cursor: pointer;
+    transition: font-style 0.1s;
+}
+
+.opinion-item:hover .author-name { font-style: italic; }
+
+.opinion-item .title {
+    font-size: 1.25pc;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.25;
+    margin-bottom: 0.35pc;
+}
+
+.opinion-item .excerpt {
+    font-size: var(--t-10);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.55;
+    opacity: 0.7;
+}
+
+
+/* ── 8. Pull Quote ────────────────────────────────────────────── */
+
+.quote-section-hybrid {
+    margin: 2.5pc 0;
+    padding: 2pc 0 2pc 2pc;
+    border-top: none;
+    border-bottom: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-color);
+}
+
+.quote-text {
+    font-size: 2.167pc;   /* ~26pt */
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.005em;
+    line-height: 1.45;
+    margin-bottom: 0.75pc;
+    color: var(--text-color);
+    max-width: 44ch;
+}
+
+.quote-author {
+    display: inline-block;
+    font-size: var(--t-8);
+    font-weight: 500;
+    letter-spacing: var(--tracking-loose);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--accent-color);
+    opacity: 0.85;
+}
+
+
+/* ── 9. Bottom Grid ───────────────────────────────────────────── */
+
+.bottom-grid-hybrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2pc;
+    margin-bottom: 3pc;
+}
+
+.grid-article-hybrid {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid var(--border-color);
+    padding-top: 1pc;
+    transition: border-color 0.15s;
+}
+
+.grid-article-hybrid:hover {
+    border-color: var(--accent-color);
+}
+
+/* Category — text-only label */
+.grid-article-hybrid .category {
+    display: block;
+    font-size: var(--t-8);
+    font-weight: 700;
+    letter-spacing: var(--tracking-loose);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--accent-color);
+    margin-bottom: 0.5pc;
+}
+
+.grid-article-hybrid .title {
+    font-size: 1.25pc;  /* ~15pt */
+    font-weight: 700;
+    letter-spacing: var(--tracking-display);
+    line-height: 1.2;
+    margin-bottom: 0.5pc;
+    flex: 1;
+    transition: color 0.15s;
+}
+
+.grid-article-hybrid:hover .title { color: var(--accent-color); }
+
+.grid-article-hybrid .excerpt {
+    font-size: var(--t-10);
+    font-weight: 400;
+    line-height: 1.45;
+    opacity: 0.65;
+    margin-bottom: 0.4pc;
+}
+
+.grid-article-hybrid .read-more { margin-top: 0.333pc; }
+
+
+/* ── 10. Footer ───────────────────────────────────────────────── */
+
+.news-footer-hybrid {
+    border-top: 1px solid var(--border-color);
+    padding-top: 2.5pc;
+    padding-bottom: 2pc;
+}
+
+.news-footer-hybrid .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2pc;
+    margin-bottom: 2pc;
+}
+
+.news-footer-hybrid .footer-column h4 {
+    display: block;
+    font-size: var(--t-8);
+    font-weight: 700;
+    letter-spacing: var(--tracking-loose);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--text-color);
+    opacity: 0.4;
+    margin-bottom: 1pc;
+    padding-bottom: 0.5pc;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.news-footer-hybrid .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-footer-hybrid .footer-column ul li { margin-bottom: 0.417pc; }
+
+.news-footer-hybrid .footer-column ul li a {
+    font-size: var(--t-11);
+    font-weight: 300;
+    letter-spacing: var(--tracking-normal);
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 0.6;
+    transition: opacity 0.15s, color 0.15s, font-weight 0.1s;
+}
+
+.news-footer-hybrid .footer-column ul li a:hover {
+    color: var(--accent-color);
+    font-weight: 500;
+    opacity: 1;
+}
+
+.news-footer-hybrid .footer-copyright {
+    font-size: var(--t-8);
+    font-weight: 300;
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+    text-align: left;
+    border-top: 1px solid var(--border-color);
+    padding-top: 1pc;
+    opacity: 0.35;
+}
+
+
+/* ── 11. Read More ────────────────────────────────────────────── */
+
+.read-more {
+    display: inline-block;
+    align-self: flex-start;
+    font-size: var(--t-8);
+    font-weight: 700;
+    letter-spacing: var(--tracking-caps);
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 0.333pc 0.583pc;
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.read-more:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+
+/* ── 12. Mobile Preview (.preview-mobile class on #preview-area) ── */
+/* @media queries fire on viewport width, not the 393px container,   */
+/* so we scope everything to a JS-toggled class instead.             */
+
+.preview-mobile .hybrid-style {
+    padding: 1pc 1pc 2pc;
+}
+
+.preview-mobile .logo-container .logo { font-size: 2.25pc; }
+.preview-mobile .logo-container .date-top { font-size: var(--t-8); }
+
+.preview-mobile .news-nav-hybrid {
+    flex-wrap: wrap;
+    gap: 0;
+}
+.preview-mobile .news-nav-hybrid a { padding: 0 0.875pc 0.5pc 0; font-size: var(--t-9); }
+
+.preview-mobile .news-breaking-hybrid { margin-bottom: 1.5pc; padding: 0.4pc 0; }
+
+.preview-mobile .news-main-grid-hybrid {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.preview-mobile .main-content-left {
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2pc;
+    margin-bottom: 2pc;
+}
+
+.preview-mobile .hero-title { font-size: 1.75pc; }
+.preview-mobile .hero-excerpt { font-size: var(--t-11); }
+
+.preview-mobile .sub-hero-grid-hybrid { grid-template-columns: 1fr; gap: 1.5pc; }
+
+.preview-mobile .quote-text { font-size: 1.5pc; }
+.preview-mobile .quote-section-hybrid { padding: 1.25pc 0 1.25pc 1.25pc; margin: 1.5pc 0; }
+
+.preview-mobile .bottom-grid-hybrid { grid-template-columns: 1fr; gap: 1.5pc; }
+
+.preview-mobile .news-footer-hybrid .footer-nav {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5pc;
+}
+
+
+/* ── 13. RTL Overrides (Hebrew) ───────────────────────────────── */
+
+.preview-area[dir="rtl"] .hybrid-style * {
+    text-align: right;
+}
+
+.preview-area[dir="rtl"] .news-header-hybrid,
+.preview-area[dir="rtl"] .logo-container {
+    align-items: flex-end;
+}
+
+.preview-area[dir="rtl"] .news-nav-hybrid {
+    justify-content: flex-end;
+}
+
+.preview-area[dir="rtl"] .news-nav-hybrid a {
+    padding: 0 0 0 1.25pc;
+}
+
+.preview-area[dir="rtl"] .news-breaking-hybrid {
+    flex-direction: row-reverse;
+}
+
+.preview-area[dir="rtl"] .main-content-left {
+    padding-right: 0;
+    padding-left: 3pc;
+    border-right: none;
+    border-left: 1px solid var(--border-color);
+}
+
+.preview-area[dir="rtl"] .hero-content .meta,
+.preview-area[dir="rtl"] .sub-hero-article .meta,
+.preview-area[dir="rtl"] .grid-article-hybrid .category,
+.preview-area[dir="rtl"] .read-more {
+    align-self: flex-end;
+}
+
+.preview-area[dir="rtl"] .latest-news-sidebar-hybrid .sidebar-title {
+    text-align: right;
+}
+
+.preview-area[dir="rtl"] .news-footer-hybrid .footer-copyright {
+    text-align: right;
+}
+
+.preview-area[dir="rtl"] .quote-section-hybrid {
+    border-left: none;
+    border-right: 3px solid var(--accent-color);
+    padding-left: 0;
+    padding-right: 2pc;
+}
+
+
+/* ── 13. Responsive ───────────────────────────────────────────── */
+
+@media (max-width: 1200px) {
+    .hybrid-style { padding: 1.5pc 2pc 3pc; }
+    .logo-container .logo { font-size: 4.5pc; }
+    .hero-title { font-size: 2.5pc; }
+    .bottom-grid-hybrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 1024px) {
+    .news-main-grid-hybrid { grid-template-columns: 2fr 1fr; gap: 2pc; }
+    .main-content-left { padding-right: 2pc; }
+    .preview-area[dir="rtl"] .main-content-left { padding-right: 0; padding-left: 2pc; }
+}
+
+@media (max-width: 768px) {
+    .hybrid-style { padding: 1pc 1.25pc 2pc; }
+    .logo-container .logo { font-size: 3.5pc; }
+    .hero-title { font-size: 2pc; }
+    .news-main-grid-hybrid { grid-template-columns: 1fr; }
+    .main-content-left {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 2pc;
+    }
+    .preview-area[dir="rtl"] .main-content-left {
+        padding-left: 0;
+        border-left: none;
+    }
+    .sub-hero-grid-hybrid { grid-template-columns: 1fr; }
+    .bottom-grid-hybrid { grid-template-columns: 1fr 1fr; }
+    .news-nav-hybrid { flex-wrap: wrap; gap: 0; }
+    .news-nav-hybrid a { padding: 0 1pc 0.5pc 0; }
+}
+
+@media (max-width: 480px) {
+    .logo-container .logo { font-size: 2.5pc; }
+    .hero-title { font-size: 1.75pc; }
+    .bottom-grid-hybrid { grid-template-columns: 1fr; }
+}

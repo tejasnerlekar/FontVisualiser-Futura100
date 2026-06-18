@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "logo": "FORM",
+    "links": ["Boutique", "Collections", "À Propos", "Panier"],
+    "cartCount": "3"
+  },
+  "hero": {
+    "eyebrow": "Nouvelle Collection — PE26",
+    "headline": "Objets\nConçus pour\nDurer.",
+    "subline": "Design fonctionnel pour un intérieur réfléchi.",
+    "cta": "Découvrir",
+    "ctaSecondary": "Explorer la collection",
+    "imageBg": "#c8bfb0"
+  },
+  "products": {
+    "sectionLabel": "Produits Phares",
+    "items": [
+      { "id": "p1", "name": "Chemin de Table en Lin",    "category": "Textiles",   "price": "55 €",  "tag": "Nouveau",      "bg": "#d6cfc4" },
+      { "id": "p2", "name": "Carafe en Céramique",        "category": "Cuisine",    "price": "95 €",  "tag": "",             "bg": "#b8c4bb" },
+      { "id": "p3", "name": "Table d'Appoint en Chêne",   "category": "Mobilier",   "price": "380 €", "tag": "Best-seller",  "bg": "#c4bdb0" },
+      { "id": "p4", "name": "Plaid en Laine",             "category": "Textiles",   "price": "135 €", "tag": "",             "bg": "#b0b8c4" },
+      { "id": "p5", "name": "Service de Bols en Porcelaine","category": "Cuisine",   "price": "72 €",  "tag": "Nouveau",      "bg": "#c4c0b8" },
+      { "id": "p6", "name": "Panier de Rangement Tressé",  "category": "Déco",      "price": "62 €",  "tag": "",             "bg": "#bdc4bc" },
+      { "id": "p7", "name": "Bougies en Cire d'Abeille",   "category": "Éclairage", "price": "22 €",  "tag": "",             "bg": "#c8c0b0" },
+      { "id": "p8", "name": "Set de Sous-verres en Cuir",   "category": "Déco",     "price": "36 €",  "tag": "Promo",        "bg": "#b8c0c8" }
+    ],
+    "addToCart": "Ajouter au Panier",
+    "quickAdd": "Ajout rapide"
+  },
+  "feature": {
+    "eyebrow": "Notre Philosophie",
+    "heading": "Moins,\nmais mieux.",
+    "body": "Nous croyons en des objets qui méritent leur place — conçus avec intention, faits pour être utilisés, construits pour durer. Chaque pièce de notre collection est choisie pour la façon dont elle s'intègre à la vie quotidienne.",
+    "cta": "Notre Histoire",
+    "imageBg": "#a8b8a8",
+    "stats": [
+      { "value": 12, "suffix": "+", "label": "Ans" },
+      { "value": 200, "suffix": "+", "label": "Produits" },
+      { "value": 48, "suffix": "k", "label": "Clients" }
+    ]
+  },
+  "strip": ["Livraison gratuite dès 100 €", "Fait main en Europe", "Retours 30 jours", "Éco-responsable", "Garantie à vie", "Neutre en carbone"],
+  "categories": {
+    "sectionLabel": "Acheter par Pièce",
+    "items": [
+      { "name": "Cuisine",   "count": "24 pièces", "bg": "#c8bfb0" },
+      { "name": "Salon",     "count": "38 pièces", "bg": "#b0b8c4" },
+      { "name": "Chambre",   "count": "19 pièces", "bg": "#c4bdb0" }
+    ]
+  },
+  "newsletter": {
+    "heading": "Objets Réfléchis,\nChaque Mois.",
+    "subline": "Nouveautés, histoires d'artisans et idées pour un intérieur pensé.",
+    "placeholder": "Votre adresse e-mail",
+    "cta": "S'abonner"
+  },
+  "footer": {
+    "logo": "FORM",
+    "tagline": "Des objets conçus pour durer.",
+    "columns": [
+      { "heading": "Boutique",  "links": ["Tous les Produits", "Nouveautés", "Best-sellers", "Promotions"] },
+      { "heading": "Société",   "links": ["Notre Histoire", "Artisans", "Durabilité", "Presse"] },
+      { "heading": "Aide",      "links": ["Livraison & Retours", "Guides d'entretien", "Contact", "FAQ"] }
+    ],
+    "socials": ["Instagram", "Pinterest", "Substack"],
+    "copyright": "© 2026 Form Studio SARL."
+  }
+}

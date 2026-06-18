@@ -1,0 +1,46 @@
+{
+  "nav": { "logo": "CD", "links": ["Projets", "À Propos", "Services", "Contact"] },
+  "hero": {
+    "nameLines": ["CAMILLE", "DUBOIS"],
+    "discipline": "Designer Graphique",
+    "tagline": "Créer des identités\nqui durent.",
+    "cta": "Voir les projets",
+    "availability": "Disponible pour de nouveaux projets"
+  },
+  "work": {
+    "sectionLabel": "Projets Sélectionnés",
+    "projects": [
+      { "number": "01", "title": "Méridien", "category": "Identité de Marque", "year": "2025", "bg": "#1a1a2e" },
+      { "number": "02", "title": "Studio Forme", "category": "Design Web", "year": "2025", "bg": "#1e2d1e" },
+      { "number": "03", "title": "Atlas Type", "category": "Typographie", "year": "2024", "bg": "#2d1e1e" },
+      { "number": "04", "title": "Revue Voile", "category": "Éditorial", "year": "2024", "bg": "#1e1e2d" }
+    ],
+    "viewProject": "Voir le projet →"
+  },
+  "about": {
+    "sectionLabel": "À Propos",
+    "heading": "Concevoir avec\nintention.",
+    "bio": "Je suis designer graphique basée à Paris, travaillant à l'intersection de l'identité de marque, de la typographie et de l'expérience numérique. Depuis plus de huit ans, je collabore avec des studios et des fondateurs visionnaires pour construire des marques qui résistent à l'épreuve du temps.",
+    "skills": ["Identité de Marque", "Typographie", "Direction Artistique", "Design Numérique"],
+    "tagline": "Disponible dans le monde entier.",
+    "stats": [
+      { "value": 8,  "suffix": "+", "label": "Ans" },
+      { "value": 60, "suffix": "+", "label": "Projets" },
+      { "value": 34, "suffix": "",  "label": "Clients" }
+    ]
+  },
+  "services": {
+    "sectionLabel": "Services",
+    "items": [
+      { "number": "01", "name": "Identité de Marque",   "detail": "Stratégie, naming, identité visuelle, charte graphique" },
+      { "number": "02", "name": "Typographie",           "detail": "Consultation typographique, lettrages personnalisés" },
+      { "number": "03", "name": "Design Web",            "detail": "Design d'interface, prototypage, systèmes de design" },
+      { "number": "04", "name": "Direction Artistique",  "detail": "Campagnes, éditorial, direction photographique" }
+    ]
+  },
+  "footer": {
+    "email": "bonjour@camilledubois.fr",
+    "socials": ["Instagram", "LinkedIn", "Are.na"],
+    "copyright": "© 2026 Camille Dubois"
+  }
+}

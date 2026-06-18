@@ -1,0 +1,23 @@
+{
+  "genres": [
+    { "id": "news",      "name": "News Site"  },
+    { "id": "portfolio", "name": "Portfolio"  },
+    { "id": "ecommerce", "name": "E-Commerce" }
+  ],
+  "languages": [
+    { "id": "english", "name": "English", "defaultFontId": "futura-latin", "dateLocale": "en-GB", "timezone": "Europe/London",  "dir": "ltr" },
+    { "id": "french",  "name": "French",  "defaultFontId": "futura-latin", "dateLocale": "fr-FR", "timezone": "Europe/Paris",   "dir": "ltr" },
+    { "id": "spanish", "name": "Spanish", "defaultFontId": "futura-latin", "dateLocale": "es-ES", "timezone": "Europe/Madrid",  "dir": "ltr" },
+    { "id": "german",  "name": "German",  "defaultFontId": "futura-latin", "dateLocale": "de-DE", "timezone": "Europe/Berlin",  "dir": "ltr" }
+  ],
+  "fonts": [
+    { "id": "futura-latin", "name": "Latin", "family": "futura-100-latin-ext", "label": "Futura 100 Latin Ext" }
+  ],
+  "accents": [
+    { "name": "Indigo", "color": "#3f51b5", "hover": "#303f9f" },
+    { "name": "Teal",   "color": "#009688", "hover": "#00796b" },
+    { "name": "Amber",  "color": "#ffc107", "hover": "#ffa000" },
+    { "name": "Pink",   "color": "#e91e63", "hover": "#c2185b" },
+    { "name": "Slate",  "color": "#475569", "hover": "#334155" }
+  ]
+}

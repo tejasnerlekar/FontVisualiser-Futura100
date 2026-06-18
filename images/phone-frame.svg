@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  iPhone 16 mockup frame — 393 × 852 pt logical
+  Bezels: top=12 bottom=12 sides=11 (all proportional)
+  Screen hole: x=11 y=12 w=371 h=828 rx=24
+-->
+<svg viewBox="-6 0 405 852" preserveAspectRatio="none"
+     xmlns="http://www.w3.org/2000/svg" overflow="visible">
+  <defs>
+    <mask id="screen-cut">
+      <rect x="-6" y="0" width="417" height="852" fill="white"/>
+      <rect x="11" y="12" width="371" height="828" rx="24" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- ── Phone body (bezel) with transparent screen hole ── -->
+  <rect x="0" y="0" width="393" height="852" rx="54"
+        fill="#1c1c1e" mask="url(#screen-cut)"/>
+
+  <!-- ── Dynamic Island — sits inside screen at top ── -->
+  <rect x="137" y="16" width="119" height="36" rx="18" fill="#000000"/>
+
+  <!-- ── Home indicator ── -->
+  <rect x="130" y="824" width="133" height="5" rx="2.5"
+        fill="#ffffff" fill-opacity="0.42"/>
+
+  <!-- ── Outer specular rim ── -->
+  <rect x="0.75" y="0.75" width="391.5" height="850.5" rx="53.5"
+        fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1.5"/>
+
+  <!-- ── Inner screen-edge shadow line ── -->
+  <rect x="11.5" y="12.5" width="370" height="827" rx="23.5"
+        fill="none" stroke="#000000" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ── Side buttons: power (right) ── -->
+  <rect x="391" y="182" width="6" height="80" rx="3" fill="#2c2c2e"/>
+  <rect x="391" y="182" width="6" height="80" rx="3"
+        fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="0.5"/>
+
+  <!-- ── Side buttons: silent switch + volume (left) ── -->
+  <rect x="-3" y="108" width="5" height="32" rx="2.5" fill="#2c2c2e"/>
+  <rect x="-3" y="152" width="5" height="58" rx="2.5" fill="#2c2c2e"/>
+  <rect x="-3" y="222" width="5" height="58" rx="2.5" fill="#2c2c2e"/>
+</svg>

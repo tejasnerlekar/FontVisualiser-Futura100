@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Visualizer — Futura 100</title>
+    <link rel="stylesheet" href="https://use.typekit.net/fpp1oyn.css">
+    <script src="https://use.typekit.net/fpp1oyn.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){console.warn('Typekit failed:', e);}</script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-mode">
+    <div id="app" class="app-container">
+
+        <!-- Device shell + preview -->
+        <div id="device-shell" class="device-shell mode-full">
+            <!-- phone-body: passthrough in full/desktop, phone container in mobile -->
+            <div class="phone-body" id="phone-body">
+                <div id="device-chrome" class="device-chrome" aria-hidden="true">
+                    <span class="dc-dot dc-dot-r"></span>
+                    <span class="dc-dot dc-dot-y"></span>
+                    <span class="dc-dot dc-dot-g"></span>
+                    <span class="dc-url-bar"></span>
+                </div>
+                <main id="preview-area" class="preview-area"></main>
+                <!-- Single-piece phone frame SVG — overlaid on content in mobile mode -->
+                <img class="phone-frame" src="images/phone-frame.svg"
+                     aria-hidden="true" alt="" draggable="false">
+            </div>
+        </div>
+
+        <!-- Bottom Toolbar -->
+        <footer id="toolbar" class="toolbar">
+
+            <!-- Left: Font identity -->
+            <div class="tb-brand">
+                <span class="tb-font-name">Futura 100</span>
+                <span class="tb-brand-rule" aria-hidden="true"></span>
+                <span class="tb-foundry">TypeTogether</span>
+                <span class="tb-brand-rule" aria-hidden="true"></span>
+                <span class="tb-font-variant" id="tb-font-variant">Latin</span>
+            </div>
+
+            <!-- Centre: Template tabs -->
+            <nav class="tb-genres" id="tb-genres" aria-label="Template"></nav>
+
+            <!-- Right: Language · Accent · Theme -->
+            <div class="tb-controls">
+                <div class="tb-langs" id="tb-langs"></div>
+                <div class="tb-divider" aria-hidden="true"></div>
+                <div class="tb-accents" id="tb-accents"></div>
+                <div class="tb-divider" aria-hidden="true"></div>
+                <div class="tb-theme">
+                    <button id="btn-light" class="tb-theme-btn active">Light</button>
+                    <button id="btn-dark"  class="tb-theme-btn">Dark</button>
+                </div>
+                <div class="tb-divider" aria-hidden="true"></div>
+                <div class="tb-device" id="tb-device">
+                    <button class="tb-device-btn active" data-mode="full" title="Full">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 6V2h4M14 6V2h-4M2 10v4h4M14 10v4h-4"/></svg>
+                    </button>
+                    <button class="tb-device-btn" data-mode="desktop" title="Desktop">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="2" width="14" height="10" rx="1.5"/><path d="M5.5 14.5h5M8 12v2.5"/></svg>
+                    </button>
+                    <button class="tb-device-btn" data-mode="mobile" title="Mobile">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="1" width="8" height="14" rx="2"/><path d="M7 12.5h2"/></svg>
+                    </button>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- Dynamic accent / font-face overrides -->
+    <style id="dynamic-styles"></style>
+
+    <script type="module" src="js/app.js?v=4.0"></script>
+</body>
+
+</html>

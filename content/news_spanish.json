@@ -1,0 +1,89 @@
+{
+  "siteName": "LA GACETA",
+  "currentDate": "Jueves, 11 de junio de 2026",
+  "navItems": ["Inicio", "Mundo", "Política", "Economía", "Ciencia", "Deporte", "Cultura"],
+  "breakingTitle": "Última hora",
+  "latestNewsTitle": "Últimas noticias",
+  "readMoreText": "Leer más",
+  "breaking": [
+    "Los mercados globales suben tras señales de pausa prolongada en las subidas de tipos",
+    "La agencia espacial confirma misión tripulada al polo sur lunar para 2028",
+    "Temperaturas récord en junio asolan el sur de Europa en medio de alertas climáticas",
+    "Gran tecnológica presenta modelo de IA de nueva generación con razonamiento avanzado"
+  ],
+  "heroArticle": {
+    "title": "La agencia espacial confirma misión lunar tripulada para 2028",
+    "excerpt": "En un anuncio histórico, el consorcio espacial internacional confirmó que un equipo de cuatro astronautas emprenderá el viaje al polo sur lunar en 2028. La misión tiene como objetivo establecer un puesto de investigación permanente y explorar depósitos de hielo de agua que podrían sostener futuras estancias prolongadas en la Luna.",
+    "meta": "Ciencia • Hace 2 horas"
+  },
+  "sideArticles": [
+    {
+      "title": "Los mercados mundiales repuntan al estabilizarse las señales de pausa monetaria",
+      "meta": "Economía • Hace 4 horas",
+      "excerpt": "Los principales índices subieron en Asia, Europa y América tras los comentarios de los bancos centrales sobre una pausa prolongada en el endurecimiento monetario. Los analistas señalan el giro como un punto de inflexión para los valores de crecimiento."
+    },
+    {
+      "title": "Calor récord azota el sur de Europa en plena emergencia climática",
+      "meta": "Medioambiente • Hace 5 horas",
+      "excerpt": "Los meteorólogos registraron las temperaturas más altas en décadas en España, Italia y Grecia, provocando avisos sanitarios y medidas de refrigeración de emergencia en las grandes ciudades. Han estallado incendios en tres regiones."
+    },
+    {
+      "title": "Naciones se reúnen para cumbre de biodiversidad de emergencia en Ginebra",
+      "meta": "Mundo • Hace 8 horas",
+      "excerpt": "Delegados de 190 países negocian objetivos vinculantes para la protección del hábitat y la recuperación de especies tras los alarmantes datos sobre la tasa de colapso de ecosistemas."
+    },
+    {
+      "title": "La UE finaliza su nueva regulación para las plataformas digitales",
+      "meta": "Tecnología • Hace 10 horas",
+      "excerpt": "La Comisión Europea ha confirmado normas que obligan a las grandes plataformas a compartir datos con investigadores y mejorar la transparencia algorítmica antes de fin de año."
+    }
+  ],
+  "opinions": [
+    {
+      "author": "María José Fernández",
+      "title": "¿Por qué las ciudades deben liderar la transición verde?",
+      "excerpt": "Los gobiernos nacionales han incumplido repetidamente sus compromisos climáticos. La verdadera innovación ocurre a nivel municipal, donde los alcaldes tienen la voluntad y la proximidad para actuar."
+    },
+    {
+      "author": "Ángel Rodríguez",
+      "title": "El mito de la IA sustituyendo el trabajo creativo",
+      "excerpt": "A pesar del entusiasmo, las herramientas generativas están potenciando la creatividad humana en lugar de suplantarla. Las profesiones más en riesgo son las que ya habían mercantilizado la creatividad."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "El desafío de nuestro tiempo no es la falta de soluciones — es la falta de voluntad para desplegarlas a la velocidad y escala que exige la ciencia.",
+      "author": "Panel Climático de la ONU, Informe de Progreso Anual 2025"
+    }
+  ],
+  "gridArticles": [
+    {
+      "category": "Política",
+      "title": "Las negociaciones de coalición se estancan por el presupuesto y las prioridades sociales",
+      "excerpt": "Las negociaciones han entrado en su tercera semana sin acuerdo sobre el equilibrio entre gasto en infraestructura y asignación social."
+    },
+    {
+      "category": "Cultura",
+      "title": "Retrospectiva celebra un siglo de arquitectura modernista",
+      "excerpt": "Una gran exposición traza la influencia de la Bauhaus desde sus orígenes hasta el diseño urbano contemporáneo en tres continentes."
+    },
+    {
+      "category": "Ciencia",
+      "title": "Nuevo estudio vincula los microplásticos con el riesgo cardiovascular",
+      "excerpt": "Los investigadores encontraron concentraciones elevadas en tejido arterial, reforzando la conexión entre la contaminación plástica y resultados mensurables en la salud."
+    },
+    {
+      "category": "Deporte",
+      "title": "La selección nacional convoca a 26 jugadores para el campeonato mundial",
+      "excerpt": "La convocatoria mezcla jugadores experimentados con varios debutantes surgidos de las actuaciones más destacadas de la temporada de clubes."
+    }
+  ],
+  "footer": {
+    "sections": [
+      { "title": "Noticias",  "links": ["Mundo", "España", "Política", "Salud"] },
+      { "title": "Economía",  "links": ["Mercados", "Empresas", "Economía", "Tecnología"] },
+      { "title": "Cultura",   "links": ["Cine", "Música", "Libros", "Arquitectura"] }
+    ],
+    "copyright": "© 2026 La Gaceta Digital. Todos los derechos reservados."
+  }
+}

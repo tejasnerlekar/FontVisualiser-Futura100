@@ -1,0 +1,46 @@
+{
+  "nav": { "logo": "LC", "links": ["Trabajo", "Sobre mí", "Servicios", "Contacto"] },
+  "hero": {
+    "nameLines": ["LUCÍA", "CORTÉS"],
+    "discipline": "Diseñadora Visual",
+    "tagline": "Marcas con carácter\nque perduran.",
+    "cta": "Ver trabajo",
+    "availability": "Disponible para nuevos proyectos"
+  },
+  "work": {
+    "sectionLabel": "Trabajo selecto",
+    "projects": [
+      { "number": "01", "title": "Ábaco",     "category": "Identidad de Marca", "year": "2025", "bg": "#1a1a2e" },
+      { "number": "02", "title": "Tótem",     "category": "Diseño Web",         "year": "2025", "bg": "#1e2d1e" },
+      { "number": "03", "title": "Épsilon",   "category": "Tipografía",         "year": "2024", "bg": "#2d1e1e" },
+      { "number": "04", "title": "Índigo",    "category": "Editorial",          "year": "2024", "bg": "#1e1e2d" }
+    ],
+    "viewProject": "Ver proyecto →"
+  },
+  "about": {
+    "sectionLabel": "Sobre mí",
+    "heading": "Diseño con\nintención.",
+    "bio": "Soy diseñadora visual afincada en Madrid, trabajando en la intersección de identidad de marca, tipografía y experiencia digital. Con más de ocho años de trayectoria, colaboro con estudios y fundadores visionarios para construir marcas que mantienen su forma a lo largo del tiempo.",
+    "skills": ["Identidad de Marca", "Tipografía", "Dirección de Arte", "Diseño Digital"],
+    "tagline": "Disponible en todo el mundo.",
+    "stats": [
+      { "value": 8,  "suffix": "+", "label": "Años" },
+      { "value": 55, "suffix": "+", "label": "Proyectos" },
+      { "value": 31, "suffix": "",  "label": "Clientes" }
+    ]
+  },
+  "services": {
+    "sectionLabel": "Servicios",
+    "items": [
+      { "number": "01", "name": "Identidad de Marca", "detail": "Estrategia, naming, identidad visual, guías de marca" },
+      { "number": "02", "name": "Tipografía",          "detail": "Consultoría tipográfica, lettering, sistemas editoriales" },
+      { "number": "03", "name": "Diseño Web",          "detail": "Diseño de interfaces, prototipado, sistemas de diseño" },
+      { "number": "04", "name": "Dirección de Arte",   "detail": "Campañas, editorial, dirección fotográfica" }
+    ]
+  },
+  "footer": {
+    "email": "hola@luciacortes.es",
+    "socials": ["Instagram", "LinkedIn", "Behance"],
+    "copyright": "© 2026 Lucía Cortés"
+  }
+}

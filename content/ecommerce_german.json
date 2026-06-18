@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "logo": "FORM",
+    "links": ["Shop", "Kollektionen", "Über uns", "Warenkorb"],
+    "cartCount": "3"
+  },
+  "hero": {
+    "eyebrow": "Neue Kollektion — FJ26",
+    "headline": "Objekte\ndie\nbleiben.",
+    "subline": "Funktionales Design für das bewusste Zuhause.",
+    "cta": "Jetzt kaufen",
+    "ctaSecondary": "Kollektion entdecken",
+    "imageBg": "#c8bfb0"
+  },
+  "products": {
+    "sectionLabel": "Ausgewählte Produkte",
+    "items": [
+      { "id": "p1", "name": "Tischläufer aus Leinen",     "category": "Textilien",  "price": "€48",  "tag": "Neu",         "bg": "#d6cfc4" },
+      { "id": "p2", "name": "Karaffe aus Keramik",         "category": "Küche",      "price": "€86",  "tag": "",            "bg": "#b8c4bb" },
+      { "id": "p3", "name": "Beistelltisch aus Eiche",     "category": "Möbel",      "price": "€340", "tag": "Bestseller",  "bg": "#c4bdb0" },
+      { "id": "p4", "name": "Wolldecke",                   "category": "Textilien",  "price": "€120", "tag": "",            "bg": "#b0b8c4" },
+      { "id": "p5", "name": "Porzellanschüssel-Set",       "category": "Küche",      "price": "€64",  "tag": "Neu",         "bg": "#c4c0b8" },
+      { "id": "p6", "name": "Geflochtener Aufbewahrungskorb","category": "Wohnen",   "price": "€55",  "tag": "",            "bg": "#bdc4bc" },
+      { "id": "p7", "name": "Bienenwachs-Kerzen",          "category": "Beleuchtung","price": "€18",  "tag": "",            "bg": "#c8c0b0" },
+      { "id": "p8", "name": "Untersetzer-Set aus Leder",   "category": "Wohnen",     "price": "€32",  "tag": "Angebot",     "bg": "#b8c0c8" }
+    ],
+    "addToCart": "In den Warenkorb",
+    "quickAdd": "Schnell hinzufügen"
+  },
+  "feature": {
+    "eyebrow": "Die Philosophie",
+    "heading": "Weniger,\naber besser.",
+    "body": "Wir glauben an Objekte, die ihren Platz verdienen — mit Bedacht gestaltet, zum Benutzen gemacht, zum Behalten gebaut. Jedes Stück unserer Kollektion wird danach ausgewählt, wie es das tägliche Leben bereichert.",
+    "cta": "Unsere Geschichte",
+    "imageBg": "#a8b8a8",
+    "stats": [
+      { "value": 12,  "suffix": "+", "label": "Jahre" },
+      { "value": 200, "suffix": "+", "label": "Produkte" },
+      { "value": 48,  "suffix": "k", "label": "Kunden" }
+    ]
+  },
+  "strip": ["Kostenloser Versand ab €80", "Handgefertigt in Europa", "30 Tage Rückgabe", "Nachhaltig beschafft", "Lebenslange Garantie", "CO₂-neutral"],
+  "categories": {
+    "sectionLabel": "Nach Raum einkaufen",
+    "items": [
+      { "name": "Küche",      "count": "24 Stücke", "bg": "#c8bfb0" },
+      { "name": "Wohnzimmer", "count": "38 Stücke", "bg": "#b0b8c4" },
+      { "name": "Schlafzimmer","count": "19 Stücke", "bg": "#c4bdb0" }
+    ]
+  },
+  "newsletter": {
+    "heading": "Bewusste Objekte,\nmonatlich geliefert.",
+    "subline": "Neuheiten, Geschichten der Macher und Ideen für das durchdachte Zuhause.",
+    "placeholder": "Deine E-Mail-Adresse",
+    "cta": "Abonnieren"
+  },
+  "footer": {
+    "logo": "FORM",
+    "tagline": "Objekte, die bleiben.",
+    "columns": [
+      { "heading": "Shop",        "links": ["Alle Produkte", "Neuheiten", "Bestseller", "Angebote"] },
+      { "heading": "Unternehmen", "links": ["Unsere Geschichte", "Hersteller", "Nachhaltigkeit", "Presse"] },
+      { "heading": "Hilfe",       "links": ["Versand & Rückgabe", "Pflegeanleitungen", "Kontakt", "FAQ"] }
+    ],
+    "socials": ["Instagram", "Pinterest", "Substack"],
+    "copyright": "© 2026 Form Studio GmbH."
+  }
+}
